@@ -14,6 +14,20 @@ h1 {
 
 }
 
+h2 {
+	font-family: "Lobster";
+	font-style: cursive;
+	font-size: 2.4em;
+	font-weight: lighter;
+	text-align: center;
+
+}
+
+#resume p {
+	text-align: center;
+}
+
+
 .container {
 
 	max-width: 900px;
@@ -63,6 +77,10 @@ h1 {
 
 .timeline {
 	font-weight: bold;
+}
+
+#find-me p {
+	text-align: center;
 }
 
 #find-me i {
