@@ -5,11 +5,12 @@ body {
 	padding-bottom: 30px;
 }
 
-h1-header {
+h1 {
 	font-family: "Lobster";
 	font-style: cursive;
-	font-size: 5em;
+	font-size: 5.6em;
 	font-weight: lighter;
+	text-align: center;
 
 }
 
