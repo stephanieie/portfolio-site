@@ -93,13 +93,11 @@ h2 {
 }
 
 #stuff img {
-	width: 300px;
-	height: relative;
-
+	width: 600px;
 }
 
-#stuff img:hover {
-	cursor: pointer;
+#gallery img {
+	width: 22%;
 }
 
 #stuff a {
@@ -108,6 +106,11 @@ h2 {
 
 #stuff a:hover {
 	color: 375FEE;
+}
+
+#stuff p {
+	text-align: center;
+	font-weight: bold;
 }
 
 footer {
