@@ -23,6 +23,11 @@ h2 {
 
 }
 
+#about h2 {
+	font-family: Lobster;
+	font-size: 1em;
+}
+
 #resume p {
 	text-align: center;
 }
