@@ -5,7 +5,11 @@ body {
 	padding-bottom: 10px;
 }
 
-h1 {
+body a {
+	cursor: pointer;
+}
+
+#about h1 {
 	font-family: "Lobster";
 	font-style: cursive;
 	font-size: 5.6em;
