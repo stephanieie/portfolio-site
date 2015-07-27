@@ -5,13 +5,18 @@
 
 <!--STYLESHEETS-->
 
-		<link rel="stylesheet" href="styles/base.css">
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-		<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
-		<script src="javascript/jquery.scrollTo.min.js"></script>
+<!-- 		
 		<link href="//cdn.rawgit.com/noelboss/featherlight/1.3.2/release/featherlight.min.css" type="text/css" rel="stylesheet" title="Featherlight Styles" />
-		<link rel="stylesheet" href="libraries/featherlight.css">
-		<link rel="stylesheet" href="styles/normalize.css">
+		<link rel="stylesheet" href="libraries/featherlight.css"> -->
+
+	<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+	<script src='libraries/jquery.sticky.js'></script>
+	<link rel="stylesheet" href="styles/normalize.css">
+	<script src="libraries/jquery.scrollto.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="styles/base.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Tinos' rel='stylesheet' type='text/css'>
 
 <!--FONTS-->
 
@@ -37,9 +42,9 @@
 
 <!--ABOUT ME SECTION-->
 
-<div class="section">
+<div id="about" class="section">
 
-	<div class="container" id="about">
+	<div class="container">
 
 			<h1>Stephanie Fereiro</h1>
 
@@ -55,9 +60,9 @@
 
 <!--RESUME/TIMELINE-->
 
-<div class="section">
+<div id="resume" class="section">
 
-	<div class="container" id="resume">
+	<div class="container">
 
 			<h2>Resume</h2>
 
@@ -81,9 +86,9 @@
 
 <!--CONTACT ME-->
 
-<div class="section">
+<div id="find-me" class="section">
 
-	<div class="container" id="find-me">
+	<div class="container">
 			
 			<h2>Find Me Elsewhere</h2>
 
@@ -99,9 +104,9 @@
 
 </div>
 
-<div class="section">
+<div id="instagram-feed" class="section">
 
-	<div class="container" id="instagram-feed">		
+	<div class="container">	
 
 			<h2>Instagram Feed</h2>
 
@@ -115,9 +120,9 @@
 
 <!--STUFF I'VE MADE-->
 
-<div class="section">
+<div id="stuff" class="section">
 
-	<div class="container" id="stuff">
+	<div class="container">
 
 			<h2>Stuff I've Made</h2>
 
@@ -143,27 +148,27 @@
 
 <!--ALL JAVASCRIPT UNDER THIS LINE-->
 
-<script src="//code.jquery.com/jquery-latest.js"></script>
-<script src="//cdn.rawgit.com/noelboss/featherlight/1.3.2/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+<!-- <script src="//code.jquery.com/jquery-latest.js"></script>
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.3.2/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script> -->
 
 	<script>
 
     	//SLOW SCROLL//
 
-    			$('.home-click').click(function(){
-    		$.scrollTo($("#about"), 750 )
+				$('.home-click').click(function(){
+    		$.scrollTo( $('#about'), 750 )
     	})
 
     			$('.resume-click').click(function(){
-    		$.scrollTo($("#resume"), 750 )
+    		$.scrollTo( $('#resume'), 750 )
     	})
 
     			$('.find-me-click').click(function(){
-    		$.scrollTo($("#find-me"), 750 )
+    		$.scrollTo( $('#find-me'), 750 )
     	})
 
     			$('.stuff-click').click(function(){
-    		$.scrollTo($("#stuff"), 750 )
+    		$.scrollTo( $('#stuff'), 750 )
 
     	})
 
