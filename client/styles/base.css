@@ -39,8 +39,8 @@ h2 {
 
 .container {
 
-	max-width: 100%;
-	margin: 10px;
+	max-width: 900px;
+	margin: auto;
 	padding-top: 20px;
 	padding-bottom: 0px;
 	padding-left: 100px;
@@ -51,7 +51,7 @@ h2 {
 
 .section {
 
-	max-width: 80%;
+	max-width: 100%;
 	margin: auto;
 
 }
