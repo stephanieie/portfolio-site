@@ -1,8 +1,9 @@
 body {
 	
 	background-color: #FFFFFF;
-	font-family: Tinos;
+	font-family:'Lato', sans-serif;
 	padding-bottom: 10px;
+	font-weight: lighter;
 }
 
 body a {
@@ -16,6 +17,13 @@ body a {
 	font-weight: lighter;
 	text-align: center;
 
+}
+
+#about p {
+	line-height: 1.5em;
+	width: 800px;
+	margin: auto;
+	padding-top: 20px;
 }
 
 h2 {
