@@ -6,45 +6,8 @@ body {
 	background-position: fixed;
 }
 
-.fixed-background {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: -9999;
-}
-
-body a {
+a {
 	cursor: pointer;
-}
-
-#about h1 {
-	font-family: "Lobster";
-	font-style: cursive;
-	font-size: 6.3em;
-	font-weight: lighter;
-	text-align: center;
-	margin-top: 20px;
-
-}
-
-#about p {
-	line-height: 1.6em;
-	width: 800px;
-	margin: auto;
-	padding-top: 20px;
-}
-
-#about h2 {
-	width: 700px;
-	margin: auto;
-	font-family: "Lobster";
-	font-style: cursive;
-	font-size: 2.4em;
-	font-weight: lighter;
-	text-align: center;
-	padding-bottom: 20px;
-
 }
 
 h2 {
@@ -58,15 +21,13 @@ h2 {
 
 }
 
-#about h2 {
-	font-family: Lobster;
-	font-size: 1em;
-}
+section {
 
-#resume p {
-	text-align: center;
-}
+	max-width: 100%;
+	margin: auto;
+	margin-bottom: 30px;
 
+}
 
 .container {
 
@@ -80,26 +41,30 @@ h2 {
 
 }
 
-.section {
-
-	max-width: 100%;
-	margin: auto;
-	margin-bottom: 30px;
-
+.fixed-background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -9999;
 }
 
 .fixed-nav-bar {
 		position: fixed;
-		padding-top: 8px;
+		/*padding-top: 8px;*/
   		top: 0;
   		left: 0;
   		z-index: 9999;
   		width: 100%;
-  		height: 30px;
+  		/*height: 30px;*/
   		background-color: #1782F0;
   		text-align: center;
   		font-size: 1.2em;
  }
+
+ 	.fixed-nav-bar div {
+ 		padding: 8px;
+ 	}
 
 	.fixed-nav-bar a {
 		color: white;
@@ -115,12 +80,66 @@ h2 {
 		color:black;
 	}
 
+#about h1 {
+	font-family: "Lobster";
+	font-style: cursive;
+	font-size: 6.3em;
+	font-weight: lighter;
+	text-align: center;
+	margin-top: 20px;
+
+}
+
+#about p {
+	line-height: 1.6em;
+	width: 80%;
+	margin: auto;
+	padding-top: 20px;
+}
+
+#about h2 {
+	width: 80%;
+	margin: auto;
+	font-family: "Lobster";
+	font-style: cursive;
+	font-size: 2.4em;
+	font-weight: lighter;
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+
+#about h2 {
+	font-family: Lobster;
+	font-size: 1em;
+}
+
 #about a {
 	color: black;
 }
 
 #about a:hover {
 	color: #375FEE;
+}
+
+@media all and (max-width: 1080px) {
+
+	#about h1 {
+		font-size: 4.3em;
+	}
+
+}
+
+@media all and (max-width: 768px) {
+
+	#about h1 {
+		font-size: 2.3em;
+	}
+
+}
+
+#resume p {
+	text-align: center;
 }
 
 .pubtitle {
@@ -145,7 +164,7 @@ h2 {
 }
 
 #stuff img {
-	width: 600px;
+	width: 80%;
 }
 
 #gallery img {
