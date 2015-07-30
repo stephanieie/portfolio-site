@@ -57,7 +57,6 @@ section {
 @media all and (max-width: 725px) {
 
 	.container {
-		max-width: 90%;
 		padding-left: 10px;
 		padding-right: 10px;
 	}
@@ -266,12 +265,28 @@ footer i:hover {
 	color: #375FEE;
 }
 
-
 @media all and (max-width: 1080px) {
 
 	footer {
 		padding-left: 50px;
 		padding-right: 50px;
+	}
+
+}
+
+@media all and (max-width: 725px) {
+
+	footer {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+}
+
+@media all and (max-width: 725px) {
+
+	footer i {
+		padding: 5px;
 	}
 
 }
