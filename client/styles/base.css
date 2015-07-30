@@ -275,3 +275,11 @@ footer i:hover {
 	}
 
 }
+
+@media all and (max-width: 725px) {
+
+	footer i {
+		padding: 5px;
+	}
+
+}
