@@ -189,6 +189,22 @@ section {
 	color: #375FEE;
 }
 
+@media all and (max-width: 1080px) {
+
+	#find-me i {
+		font-size: 2em;
+	}
+
+}
+
+@media all and (max-width: 725px) {
+
+	.find-me i {
+		font-size: 1em;
+	}
+
+}
+
 #stuff img {
 	width: 70%;
 }
