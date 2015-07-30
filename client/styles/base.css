@@ -199,7 +199,7 @@ section {
 
 }
 
-@media all and (max-width: 100px) {
+@media all and (max-width: 850px) {
 
 	#find-me i {
 		font-size: 3em;
@@ -212,7 +212,8 @@ section {
 
 	#find-me i {
 		font-size: 2em;
-		padding: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 
 }
