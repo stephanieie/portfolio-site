@@ -178,12 +178,12 @@ section {
 
 #find-me p {
 	text-align: center;
+	font-size: 4.5em;
 }
 
 #find-me i {
 	padding: 20px;
 	color: black;
-	font-size: 5em;
 }
 
 #find-me i:hover {
@@ -192,17 +192,17 @@ section {
 
 @media all and (max-width: 1080px) {
 
-	#find-me i {
-		font-size: 4em;
+	#find-me p {
+		font-size: 3em;
 		padding: 10px;
 	}
 
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 600px) {
 
-	.find-me i {
-		font-size: 2em;
+	.find-me p {
+		font-size: 1em;
 		padding: 10px;
 	}
 
