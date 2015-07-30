@@ -178,12 +178,10 @@ section {
 
 #find-me p {
 	text-align: center;
-	font-size: 5em;
 }
 
 #find-me i {
-	padding-left: 10px;
-	padding-right: 10px;
+	padding: 20px;
 	color: black;
 }
 
@@ -193,17 +191,17 @@ section {
 
 @media all and (max-width: 1080px) {
 
-	#find-me p {
-		font-size: 3em;
+	#find-me i {
+		font-size: 4em;
 		padding: 10px;
 	}
 
 }
 
-@media all and (max-width: 725px) {
+@media all and (max-width: 600px) {
 
-	.find-me p {
-		font-size: 2em;
+	.find-me i {
+		font-size: 1em;
 		padding: 10px;
 	}
 
