@@ -98,6 +98,14 @@ section {
 		color:black;
 	}
 
+@media all and (max-width: 725px) {
+
+	.fixed-nav-bar {
+		font-size: 0.8em;
+	}
+
+}
+
 #about h1 {
 	font-family: "Lobster";
 	font-style: cursive;
