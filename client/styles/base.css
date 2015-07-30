@@ -193,6 +193,7 @@ section {
 
 	#find-me i {
 		font-size: 2em;
+		padding: 10px;
 	}
 
 }
@@ -201,6 +202,7 @@ section {
 
 	.find-me i {
 		font-size: 1em;
+		padding: 10px;
 	}
 
 }
