@@ -198,10 +198,10 @@ section {
 
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 650px) {
 
 	.find-me i {
-		font-size: 1em;
+		font-size: 2em;
 		padding: 10px;
 	}
 
