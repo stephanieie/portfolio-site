@@ -178,11 +178,12 @@ section {
 
 #find-me p {
 	text-align: center;
-	font-size: 4.5em;
+	font-size: 5em;
 }
 
 #find-me i {
-	padding: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 	color: black;
 }
 
