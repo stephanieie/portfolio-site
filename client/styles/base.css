@@ -197,7 +197,7 @@ section {
 
 }
 
-@media all and (max-width: 725px) {
+@media all and (max-width: 600px) {
 
 	.find-me i {
 		font-size: 1em;
