@@ -206,13 +206,6 @@ section {
 		padding: 10px;
 	}
 
-@media all and (max-width: 500px) {
-
-	.find-me p {
-		font-size: 1em;
-		padding: 5px;
-	}
-
 }
 
 #stuff img {
