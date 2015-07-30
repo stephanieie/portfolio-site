@@ -98,10 +98,10 @@ section {
 		color:black;
 	}
 
-@media all and (max-width: 725px) {
+@media all and (max-width: 600px) {
 
 	.fixed-nav-bar {
-		font-size: 0.8em;
+		font-size: 1.0em;
 	}
 
 }
