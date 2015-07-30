@@ -1,9 +1,17 @@
 body {
-	
-	background-color: #FFFFFF;
+
 	font-family:'Lato', sans-serif;
 	padding-bottom: 10px;
 	font-weight: lighter;
+	background-position: fixed;
+}
+
+.fixed-background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -9999;
 }
 
 body a {
@@ -13,9 +21,10 @@ body a {
 #about h1 {
 	font-family: "Lobster";
 	font-style: cursive;
-	font-size: 5.6em;
+	font-size: 6.3em;
 	font-weight: lighter;
 	text-align: center;
+	margin-top: 20px;
 
 }
 
@@ -44,6 +53,8 @@ h2 {
 	font-size: 2.4em;
 	font-weight: lighter;
 	text-align: center;
+	line-height: 1em;
+	margin-top: 0px;
 
 }
 
@@ -59,10 +70,10 @@ h2 {
 
 .container {
 
-	max-width: 900px;
+	max-width: 80%;
 	margin: auto;
-	padding-top: 20px;
-	padding-bottom: 0px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	padding-left: 100px;
 	padding-right: 100px;
 	background-color: #FFFFFF;
@@ -73,6 +84,7 @@ h2 {
 
 	max-width: 100%;
 	margin: auto;
+	margin-bottom: 30px;
 
 }
 
@@ -84,7 +96,7 @@ h2 {
   		z-index: 9999;
   		width: 100%;
   		height: 30px;
-  		background-color: #375FEE;
+  		background-color: #1782F0;
   		text-align: center;
   		font-size: 1.2em;
  }
@@ -108,7 +120,7 @@ h2 {
 }
 
 #about a:hover {
-	color: 375FEE;
+	color: #375FEE;
 }
 
 .pubtitle {
@@ -129,7 +141,7 @@ h2 {
 }
 
 #find-me i:hover {
-	color: 375FEE;
+	color: #375FEE;
 }
 
 #stuff img {
@@ -145,7 +157,7 @@ h2 {
 }
 
 #stuff a:hover {
-	color: 375FEE;
+	color: #375FEE;
 }
 
 #stuff p {
@@ -154,8 +166,14 @@ h2 {
 }
 
 footer {
-	text-align:center;
-	padding-top: 50px;
+	text-align: center;
+	padding-top: 30px;
+	background-color: white;
+	padding-bottom: 30px;
+	padding-left: 100px;
+	padding-right: 100px;
+	width: 80%;
+	margin: auto;
 }
 
 footer i {
@@ -164,5 +182,5 @@ footer i {
 }
 
 footer i:hover {
-	color: 375FEE;
+	color: #375FEE;
 }
