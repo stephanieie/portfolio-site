@@ -178,6 +178,14 @@ section {
 	text-align: left;
 }
 
+@media all and (max-width: 725px) {
+
+	#resume p {
+		text-align: center;
+	}
+
+}
+
 .pubtitle {
  	font-style: italic;
 }
@@ -186,6 +194,15 @@ section {
 	font-weight: bold;
 	display: inline-block;
 	width: 250px;
+}
+
+@media all and (max-width: 725px) {
+
+	.timeline {
+		display: block;
+		width: auto;
+	}
+
 }
 
 #find-me p {
