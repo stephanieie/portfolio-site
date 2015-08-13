@@ -110,6 +110,10 @@ section {
 
 }
 
+#about {
+	margin-top: 50px;
+}
+
 #about h1 {
 	font-family: "Lobster";
 	font-style: cursive;
