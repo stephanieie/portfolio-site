@@ -182,6 +182,7 @@ section {
 
 .timeline {
 	font-weight: bold;
+	display: inline-block;
 	width: 250px;
 }
 
