@@ -33,9 +33,25 @@ section {
 	font-size: 1.2em;
 }
 
+@media all and (max-width: 725px) {
+
+	.intro-paragraph {
+		font-size: 1em;
+	}
+
+}
+
 .bio {
 	width: 60%;
 	margin: auto;
+}
+
+@media all and (max-width: 725px) {
+
+	.bio {
+		width: 90%;
+	}
+
 }
 
 .container {
@@ -138,9 +154,17 @@ section {
 
 #about p {
 	line-height: 1.6em;
-	width: 85%;
+	width: 80%;
 	margin: auto;
 	padding-top: 20px;
+}
+
+@media all and (max-width: 725px) {
+
+	.about p {
+		width: 95%;
+	}
+
 }
 
 #about h2 {
