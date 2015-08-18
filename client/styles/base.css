@@ -29,6 +29,15 @@ section {
 
 }
 
+.intro-paragraph {
+	font-size: 1.2em;
+}
+
+.bio {
+	width: 60%;
+	margin: auto;
+}
+
 .container {
 
 	width: 75%;
@@ -129,7 +138,7 @@ section {
 
 #about p {
 	line-height: 1.6em;
-	width: 80%;
+	width: 85%;
 	margin: auto;
 	padding-top: 20px;
 }
