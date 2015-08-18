@@ -29,15 +29,6 @@ section {
 
 }
 
-.intro-paragraph {
-	font-size: 1.2em;
-}
-
-.bio {
-	width: 60%;
-	margin: auto;
-}
-
 .container {
 
 	width: 75%;
@@ -184,16 +175,9 @@ section {
 
 }
 
-<<<<<<< HEAD
 .intro-paragraph {
 	font-size: 1.2em;
 }
-
-@media all and (max-width: 725px) {
-
-	.intro-paragraph {
-		font-size: 0.9em;
-	}
 
 .bio {
 	width: 60%;
@@ -202,12 +186,12 @@ section {
 
 @media all and (max-width: 725px) {
 
-	.bio {
-		width: 90%;
+	.container {
+		padding-left: 10px;
+		padding-right: 10px;
+		width: 80%;
 	}
 
-=======
->>>>>>> parent of 4a9960c... media query for bio para
 #resume p {
 	text-align: left;
 }
