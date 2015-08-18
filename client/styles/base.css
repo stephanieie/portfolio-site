@@ -159,14 +159,6 @@ section {
 	padding-top: 20px;
 }
 
-@media all and (max-width: 725px) {
-
-	.about p {
-		width: 95%;
-	}
-
-}
-
 #about h2 {
 	width: 80%;
 	margin: auto;
