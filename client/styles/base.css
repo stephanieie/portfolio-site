@@ -29,15 +29,6 @@ section {
 
 }
 
-.intro-paragraph {
-	font-size: 1.2em;
-}
-
-.bio {
-	width: 60%;
-	margin: auto;
-}
-
 .container {
 
 	width: 75%;
@@ -183,6 +174,27 @@ section {
 	}
 
 }
+
+.intro-paragraph {
+	font-size: 1.2em;
+}
+
+@media all and (max-width: 725px) {
+
+	.intro-paragraph {
+		font-size: 0.8em;
+	}
+
+.bio {
+	width: 60%;
+	margin: auto;
+}
+
+@media all and (max-width: 725px) {
+
+	.bio {
+		width: 80%;
+	}
 
 #resume p {
 	text-align: left;
