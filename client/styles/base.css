@@ -100,7 +100,12 @@ section {
 
 	.fixed-nav-bar a:hover {
 		color:black;
-	}
+		-webkit-transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
+		-ms-transition: all 0.3s ease;
+		-o-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+		}
 
 @media all and (max-width: 600px) {
 
@@ -155,6 +160,11 @@ section {
 
 #about a:hover {
 	color: #1782F0;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 
 @media all and (max-width: 1080px) {
@@ -229,6 +239,21 @@ section {
 
 }
 
+.resume-text {
+	width: 90%;
+	margin: 0 auto;
+}
+
+@media all and (max-width: 1080px) {
+
+	.resume-text {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+}
+
+
 #find-me p {
 	text-align: center;
 }
@@ -241,6 +266,11 @@ section {
 
 #find-me i:hover {
 	color: #1782F0;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 
 @media all and (max-width: 1080px) {
@@ -280,6 +310,11 @@ section {
 
 #stuff a:hover {
 	color: #1782F0;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 
 #stuff p {
@@ -309,11 +344,15 @@ footer {
 footer i {
 	padding: 10px;
 	color: black;
-	font-size: 1em;
 }
 
 footer i:hover {
 	color: #1782F0;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 
 @media all and (max-width: 1080px) {
