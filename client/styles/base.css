@@ -75,12 +75,10 @@ section {
 
 .fixed-nav-bar {
 		position: fixed;
-		/*padding-top: 8px;*/
   		top: 0;
   		left: 0;
   		z-index: 9999;
   		width: 100%;
-  		/*height: 30px;*/
   		background-color: #1782F0;
   		text-align: center;
   		font-size: 1.2em;
@@ -156,7 +154,7 @@ section {
 }
 
 #about a:hover {
-	color: #375FEE;
+	color: #1782F0;
 }
 
 @media all and (max-width: 1080px) {
@@ -242,7 +240,7 @@ section {
 }
 
 #find-me i:hover {
-	color: #375FEE;
+	color: #1782F0;
 }
 
 @media all and (max-width: 1080px) {
@@ -281,7 +279,7 @@ section {
 }
 
 #stuff a:hover {
-	color: #375FEE;
+	color: #1782F0;
 }
 
 #stuff p {
@@ -313,7 +311,7 @@ footer i {
 }
 
 footer i:hover {
-	color: #375FEE;
+	color: #1782F0;
 }
 
 @media all and (max-width: 1080px) {
