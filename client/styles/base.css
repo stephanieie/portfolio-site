@@ -276,10 +276,6 @@ section {
 	width: 70%;
 }
 
-#gallery img {
-	width: 22%;
-}
-
 #stuff a {
 	color: black;
 }
@@ -291,6 +287,10 @@ section {
 #stuff p {
 	text-align: center;
 	font-weight: bold;
+}
+
+#gallery img {
+	width: 22%;
 }
 
 footer {
