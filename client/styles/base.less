@@ -1,3 +1,5 @@
+@accent-colour: #1782F0;
+
 body {
 
 	font-family:'Lato', sans-serif;
@@ -32,6 +34,7 @@ section {
 .container {
 
 	width: 75%;
+	max-width: 1020px;
 	margin: auto;
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -79,7 +82,7 @@ section {
   		left: 0;
   		z-index: 9999;
   		width: 100%;
-  		background-color: #1782F0;
+  		background-color: @accent-colour;
   		text-align: center;
   		font-size: 1.2em;
  }
@@ -159,7 +162,7 @@ section {
 }
 
 #about a:hover {
-	color: #1782F0;
+	color: @accent-colour;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-ms-transition: all 0.3s ease;
@@ -220,6 +223,10 @@ section {
 
 }
 
+.resume-item {
+	margin: 10px 0; 
+}
+
 .pubtitle {
  	font-style: italic;
 }
@@ -227,14 +234,21 @@ section {
 .timeline {
 	font-weight: bold;
 	display: inline-block;
-	width: 250px;
+	width: 30%;
+
+}
+
+.job-title {
+	display: inline-block;
+	width: 68%;
 }
 
 @media all and (max-width: 725px) {
 
-	.timeline {
-		display: block;
-		width: auto;
+	.timeline, .job-title {
+		width: 100%;
+		text-align: center;
+
 	}
 
 }
@@ -265,7 +279,7 @@ section {
 }
 
 #find-me i:hover {
-	color: #1782F0;
+	color: @accent-colour;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-ms-transition: all 0.3s ease;
@@ -309,7 +323,7 @@ section {
 }
 
 #stuff a:hover {
-	color: #1782F0;
+	color: @accent-colour;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-ms-transition: all 0.3s ease;
@@ -347,7 +361,7 @@ footer i {
 }
 
 footer i:hover {
-	color: #1782F0;
+	color: @accent-colour;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-ms-transition: all 0.3s ease;
