@@ -77,38 +77,38 @@ section {
 }
 
 .fixed-nav-bar {
-		position: fixed;
-  		top: 0;
-  		left: 0;
-  		z-index: 9999;
-  		width: 100%;
-  		background-color: @accent-colour;
-  		text-align: center;
-  		font-size: 1.2em;
- }
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	background-color: @accent-colour;
+	text-align: center;
+	font-size: 1.2em;
 
- 	.fixed-nav-bar div {
+ 	div {
  		padding: 8px;
  	}
 
-	.fixed-nav-bar a {
+	a {
 		color: white;
-		text-decoration: none ;
-	}
+		text-decoration: none;
 
-	.fixed-nav-bar a:visited {
-		color: white;
-		text-decoration: none ;
-	}
-
-	.fixed-nav-bar a:hover {
-		color:black;
-		-webkit-transition: all 0.3s ease;
-		-moz-transition: all 0.3s ease;
-		-ms-transition: all 0.3s ease;
-		-o-transition: all 0.3s ease;
-		transition: all 0.3s ease;
+		&:visited {
+			color: white;
+			text-decoration: none;
 		}
+
+		&:hover {
+			color:black;
+			-webkit-transition: all 0.3s ease;
+			-moz-transition: all 0.3s ease;
+			-ms-transition: all 0.3s ease;
+			-o-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+		}
+	}
+}
 
 @media all and (max-width: 600px) {
 
@@ -120,54 +120,51 @@ section {
 
 #about {
 	margin-top: 50px;
-}
 
-#about h1 {
-	font-family: "Lobster";
-	font-style: cursive;
-	font-size: 6.3em;
-	font-weight: lighter;
-	text-align: center;
-	margin-top: 20px;
-	line-height: 20px;
+	h1 {
+		font-family: "Lobster";
+		font-style: cursive;
+		font-size: 6.3em;
+		font-weight: lighter;
+		text-align: center;
+		margin-top: 20px;
+		line-height: 20px;
 
-}
+	}
 
-#about p {
-	line-height: 1.6em;
-	width: 85%;
-	margin: auto;
-	padding-top: 20px;
-}
+	p {
+		line-height: 1.6em;
+		width: 85%;
+		margin: auto;
+		padding-top: 20px;
+	}
 
-#about h2 {
-	width: 80%;
-	margin: auto;
-	font-family: "Lobster";
-	font-style: cursive;
-	font-size: 2.4em;
-	font-weight: lighter;
-	text-align: center;
-	padding-bottom: 20px;
+	h2 {
+		width: 80%;
+		margin: auto;
+		font-family: "Lobster";
+		font-style: cursive;
+		font-size: 1em;
+		font-weight: lighter;
+		text-align: center;
+		padding-bottom: 20px;
 
-}
+	}
 
-#about h2 {
-	font-family: Lobster;
-	font-size: 1em;
-}
 
-#about a {
-	color: black;
-}
+	a {
+		color: black;
 
-#about a:hover {
-	color: @accent-colour;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-ms-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	transition: all 0.3s ease;
+		&:hover {
+			color: @accent-colour;
+			-webkit-transition: all 0.3s ease;
+			-moz-transition: all 0.3s ease;
+			-ms-transition: all 0.3s ease;
+			-o-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+		}
+	}
+
 }
 
 @media all and (max-width: 1080px) {
@@ -234,13 +231,13 @@ section {
 .timeline {
 	font-weight: bold;
 	display: inline-block;
-	width: 30%;
+	width: 35%;
 
 }
 
 .job-title {
 	display: inline-block;
-	width: 68%;
+	width: 63%;
 }
 
 @media all and (max-width: 725px) {
@@ -270,21 +267,21 @@ section {
 
 #find-me p {
 	text-align: center;
-}
 
-#find-me i {
-	padding: 20px;
-	color: black;
-	font-size: 5em;
-}
+	i {
+		padding: 20px;
+		color: black;
+		font-size: 5em;
 
-#find-me i:hover {
-	color: @accent-colour;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-ms-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	transition: all 0.3s ease;
+		&:hover {
+			color: @accent-colour;
+			-webkit-transition: all 0.3s ease;
+			-moz-transition: all 0.3s ease;
+			-ms-transition: all 0.3s ease;
+			-o-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+		}
+	}
 }
 
 @media all and (max-width: 1080px) {
@@ -314,26 +311,30 @@ section {
 
 }
 
-#stuff img {
-	width: 70%;
-}
+#stuff {
 
-#stuff a {
-	color: black;
-}
+	img {
+		width: 70%;
+	}
 
-#stuff a:hover {
-	color: @accent-colour;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-ms-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-}
+	a {
+		color: black;
 
-#stuff p {
-	text-align: center;
-	font-weight: bold;
+		&:hover {
+			color: @accent-colour;
+			-webkit-transition: all 0.3s ease;
+			-moz-transition: all 0.3s ease;
+			-ms-transition: all 0.3s ease;
+			-o-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+		}
+	}
+
+	p {
+		text-align: center;
+		font-weight: bold;
+	}
+
 }
 
 #gallery img {
