@@ -1,5 +1,12 @@
 
 @accent-colour : #1782F0;
+@twitter-blue : #4099FF;
+@gmail-blue: #6188f5;
+@etsy-orange: #f45800;
+@instagram-blue: #125688;
+@pinterest-red: #C92228;
+@linkedin-blue: #007bb6;
+@tumblr-blue: #32506d;
 
 body {
 	padding-bottom        : 10px;
@@ -248,22 +255,47 @@ section {
 	}
 }
 
-#find-me p {
+#find-me {
 	text-align : center;
 	i {
-		padding   : 20px;
+		padding            : 20px;
 
-		font-size : 5em;
-		color     : black;
+		font-size          : 5em;
+		color              : black;
 
-		&:hover {
-			color              : @accent-colour;
+		-webkit-transition : all 0.3s ease;
+		-moz-transition    : all 0.3s ease;
+		-ms-transition     : all 0.3s ease;
+		-o-transition      : all 0.3s ease;
+		transition         : all 0.3s ease;
 
-			-webkit-transition : all 0.3s ease;
-			-moz-transition    : all 0.3s ease;
-			-ms-transition     : all 0.3s ease;
-			-o-transition      : all 0.3s ease;
-			transition         : all 0.3s ease;
+		&.email-icon:hover{
+			color : @gmail-blue;
+			
+		}
+
+		&.twitter-icon:hover{
+			color: @twitter-blue;
+		}
+
+		&.etsy-icon:hover{
+			color: @etsy-orange;
+		}
+
+		&.insta-icon:hover{
+			color: @instagram-blue;
+		}
+
+		&.pinterest-icon:hover{
+			color: @pinterest-red;
+		}
+
+		&.linkedin-icon:hover{
+			color: @linkedin-blue;
+		}
+
+		&.tumblr-icon:hover{
+			color: @tumblr-blue;
 		}
 	}
 }
@@ -308,7 +340,7 @@ section {
 	}
 
 	p {
-		text-align  : center;
+		text-align : center;
 	}
 }
 
