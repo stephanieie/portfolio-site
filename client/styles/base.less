@@ -148,6 +148,7 @@ section {
 
 	a {
 		color : black;
+		text-decoration: underline;
 		&:hover {
 			color              : @accent-colour;
 
@@ -349,15 +350,16 @@ section {
 }
 
 .fade {
-   opacity: 1;
-   transition: opacity .35s ease-in-out;
-   -moz-transition: opacity .35s ease-in-out;
-   -webkit-transition: opacity .35s ease-in-out;
-   }
+	opacity            : 1;
 
-   .fade:hover {
-      opacity: 0.7;
-      }
+	-webkit-transition : opacity .35s ease-in-out;
+	-moz-transition    : opacity .35s ease-in-out;
+	transition         : opacity .35s ease-in-out;
+}
+
+.fade:hover {
+	opacity : 0.7;
+}
 
 footer {
 	width              : 75%;
